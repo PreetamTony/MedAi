@@ -38,7 +38,7 @@ export default function BoneFractureAnalysis() {
   const [isAnalyzing, setIsAnalyzing] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const MODEL_URL = "https://teachablemachine.withgoogle.com/models/mvaVjspeH/";
+  const MODEL_URL = "model_url";
 
   const loadModel = async () => {
     try {
