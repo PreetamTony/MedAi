@@ -95,7 +95,7 @@ const SpeechChat: React.FC = () => {
 
   // Text-to-Speech (TTS) with Murf.ai API
   const textToSpeech = async (text: string): Promise<void> => {
-    const apiKey = 'ap2_56f7bd06-efce-4b1c-8b8e-7380144aa5dc'; // Replace with your Murf.ai API key
+    const apiKey = 'api_key'; // Replace with your Murf.ai API key
     const config = {
       method: 'post',
       url: 'https://api.murf.ai/v1/speech/generate',
