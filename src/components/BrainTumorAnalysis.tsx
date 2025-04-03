@@ -22,7 +22,7 @@ export default function BrainTumorAnalysis() {
   const [isAnalyzing, setIsAnalyzing] = useState<boolean>(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const MODEL_URL = "https://teachablemachine.withgoogle.com/models/EsN4eHmMb/";
+  const MODEL_URL = "model_url";
 
   const loadModel = async () => {
     try {
